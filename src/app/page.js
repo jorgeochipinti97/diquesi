@@ -214,10 +214,10 @@ export default function Home() {
             Nuestro trabajo
           </p>
           <div className="w-screen flex justify-center">
-            <Carousel className="w-6/12 bg-black  mt-5">
+            <Carousel className="w-9/12 md:w-6/12 bg-black  mt-5">
               <CarouselContent>
                 <CarouselItem className="flex justify-center">
-                  <div>
+                  <div className="flex items-center">
                     <img
                       src="/feliz.jpg"
                       alt=""
@@ -226,7 +226,7 @@ export default function Home() {
                   </div>
                 </CarouselItem>
                 <CarouselItem className="flex justify-center">
-                  <div>
+                  <div className="flex items-center">
                     <img
                       src="/evento.jpg"
                       alt=""
@@ -235,7 +235,7 @@ export default function Home() {
                   </div>
                 </CarouselItem>
                 <CarouselItem className="flex justify-center">
-                  <div>
+                  <div className="flex items-center">
                     <img
                       src="/bienve.jpg"
                       alt=""
@@ -244,7 +244,7 @@ export default function Home() {
                   </div>
                 </CarouselItem>
                 <CarouselItem className="flex justify-center">
-                  <div>
+                  <div className="flex items-center">
                     <img
                       src="/recep.jpg"
                       alt=""
@@ -253,7 +253,7 @@ export default function Home() {
                   </div>
                 </CarouselItem>
                 <CarouselItem className="flex justify-center">
-                  <div>
+                  <div className="flex items-center">
                     <img
                       src="/abrazo.jpg"
                       alt=""
