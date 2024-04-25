@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -66,7 +66,7 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="h-screen w-screen flex flex-col justify-between"
+        className="min-h-screen w-screen flex flex-col justify-between"
       >
         <div className="flex justify-center items-center flex-col">
           <p className="font-geist text-7xl font-bold text-white tracking-tighter text-center pt-20">
@@ -75,6 +75,163 @@ export default function Home() {
           <p className="font-geist text-white font-bold text-center mt-2">
             Flowers & event planner
           </p>
+        </div>
+        <div className="flex flex-col items-center">
+        <p className="font-geist tracking-tighter text-center text-4xl mt-10 md:text-7xl  font-bold text-white opacity-75">
+            Nuestro trabajo
+          </p>
+          <Carousel className="w-9/12 md:w-6/12   ">
+            <CarouselContent>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/1.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/2.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/3.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/4.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/5.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/6.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/7.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/8.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/9.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/10.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/11.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/12.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/13.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/14.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/15.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="flex justify-center">
+                <div className="flex items-center">
+                  <img
+                    src="/16.jpg"
+                    alt=""
+                    className="max-h-[50vh] rounded-xl"
+                  />
+                </div>
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
         <div className="flex justify-center">
           <Card className="md:w-fit  w-10/12 my-5 bg-white/90">
@@ -99,7 +256,7 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="min-h-screen w-screen"
+        className="min-min-h-screen w-screen"
       >
         {/* <div className="flex justify-center pt-5">
           <svg
@@ -170,7 +327,9 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center py-5 md:mt-20">
-        <Button onClick={() => push("https://wa.link/31dnt6")} size='lg'>Emepezar hoy</Button>
+          <Button onClick={() => push("https://wa.link/31dnt6")} size="lg">
+            Emepezar hoy
+          </Button>
         </div>
       </div>
       <div
@@ -179,7 +338,7 @@ export default function Home() {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="h-screen w-screen  flex items-center"
+        className="min-h-screen w-screen  flex items-center"
       >
         <div className="w-screen">
           <p className="font-geist text-3xl md:text-7xl text-white font-bold tracking-tighter uppercase text-center">
@@ -204,73 +363,13 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center mt-10">
-          <Button onClick={() => push("https://wa.link/31dnt6")}>Quiero mi boda</Button>
+            <Button onClick={() => push("https://wa.link/31dnt6")}>
+              Quiero mi boda
+            </Button>
           </div>
         </div>
       </div>
-      <div className="h-fit pb-10 w-screen bg-black">
-        <div>
-          <p className="font-geist tracking-tighter text-center text-4xl md:text-7xl pt-10 md:pt-20 font-bold text-white">
-            Nuestro trabajo
-          </p>
-          <div className="w-screen flex justify-center">
-            <Carousel className="w-9/12 md:w-6/12 bg-black  mt-5">
-              <CarouselContent>
-                <CarouselItem className="flex justify-center">
-                  <div className="flex items-center">
-                    <img
-                      src="/feliz.jpg"
-                      alt=""
-                      className="max-h-[50vh] rounded-xl"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="flex justify-center">
-                  <div className="flex items-center">
-                    <img
-                      src="/evento.jpg"
-                      alt=""
-                      className="max-h-[50vh] rounded-xl"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="flex justify-center">
-                  <div className="flex items-center">
-                    <img
-                      src="/bienve.jpg"
-                      alt=""
-                      className="max-h-[50vh] rounded-xl"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="flex justify-center">
-                  <div className="flex items-center">
-                    <img
-                      src="/recep.jpg"
-                      alt=""
-                      className="max-h-[50vh] rounded-xl"
-                    />
-                  </div>
-                </CarouselItem>
-                <CarouselItem className="flex justify-center">
-                  <div className="flex items-center">
-                    <img
-                      src="/abrazo.jpg"
-                      alt=""
-                      className="max-h-[50vh] rounded-xl"
-                    />
-                  </div>
-                </CarouselItem>
-              </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
-            </Carousel>
-          </div>
-        </div>
-        <div className="flex mt-5 justify-center w-screen">
-        <Button onClick={() => push("https://wa.link/31dnt6")}>Comenzar hoy</Button>
-        </div>
-      </div>
+
     </main>
   );
 }
