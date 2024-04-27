@@ -225,7 +225,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <img src="/13.jpg" className="rounded-xl" />
+                <img src="/organizaciondeevento.jpg" className="rounded-xl" />
               </CardContent>
               <CardFooter className="flex justify-between"></CardFooter>
             </Card>
@@ -243,7 +243,7 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <img src="/11.jpg" className="rounded-xl" />
+                <img src="/organizacionperso.jpg" className="rounded-xl" />
               </CardContent>
               <CardFooter className="flex justify-between"></CardFooter>
             </Card>
@@ -298,6 +298,26 @@ export default function Home() {
         </p>
         <Carousel className="w-9/12 md:w-6/12   ">
           <CarouselContent>
+            <CarouselItem className="flex justify-center">
+              <div className="flex items-center">
+                <img src="/444.jpg" alt="" className="md:max-h-[80vh] rounded-xl" />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center">
+              <div className="flex items-center">
+                <img src="/333.jpg" alt="" className="md:max-h-[80vh] rounded-xl" />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center">
+              <div className="flex items-center">
+                <img src="/222.jpg" alt="" className="md:max-h-[80vh] rounded-xl" />
+              </div>
+            </CarouselItem>
+            <CarouselItem className="flex justify-center">
+              <div className="flex items-center">
+                <img src="/111.jpg" alt="" className="md:max-h-[80vh] rounded-xl" />
+              </div>
+            </CarouselItem>
             <CarouselItem className="flex justify-center">
               <div className="flex items-center">
                 <img src="/1.jpg" alt="" className="md:max-h-[80vh] rounded-xl" />
