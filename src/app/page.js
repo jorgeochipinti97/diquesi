@@ -252,7 +252,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center py-5 md:mt-20">
           <Button onClick={() => push("https://wa.link/31dnt6")} size="lg">
-            Emepezar hoy
+            Empezar hoy
           </Button>
         </div>
       </div>
